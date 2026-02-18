@@ -1,0 +1,68 @@
+body{
+    background: rgb(252, 173, 252);  
+}
+.fere{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.dew{
+    background: purple;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 2px solid black;
+    
+}
+a{
+    margin: 10px;
+    font-size: 13px;
+    color: blue;
+    text-transform: uppercase;
+}
+button{
+    border: none;
+    background: rgb(240, 233, 233);
+    width: 6opx;
+    height: 40px;
+    border-radius: 5px;
+
+}
+.wed{
+    background-color: purple;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    
+}
+.fii{
+    background: rgb(245, 213, 230);
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.wee{
+    background: rgb(243, 233, 233);
+    padding: 10px;
+    border-radius: 13px;
+    width: 40%;
+    box-shadow: inset 5px 5px 3px rgb(255, 240, 240);
+    
+
+}
+.deer{
+    background: rgb(252, 173, 252);
+    padding: 10px;
+    border-radius: 13px;
+    width: 40%;
+    box-shadow: inset 5px 5px 6px rgb(209, 101, 168, 0.952), 248), 0, 0);
+}
+
+

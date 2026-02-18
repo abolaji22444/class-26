@@ -1,0 +1,19 @@
+p{
+    letter-spacing: 3px;
+    word-spacing: 13px;
+    line-height: 30px;
+    font-size: 10;
+    font-weight: 500;
+    font-style: oblique;
+    text-align: left;
+    text-transform: capitalize;
+    color: rgb(143, 129, 129);
+    font-family: Arial sans-serif;
+    text-shadow: 3px 3px 2px black;
+    text-indent: 18px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+
+}

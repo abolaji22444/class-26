@@ -1,0 +1,188 @@
+body{
+    background: linear-gradient(10deg, red blue black white);
+}
+.boy{
+    width: 70px;
+    height: 30px;
+    animation-name: tre;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes tre{
+    0%{
+        background: rgb(65, 34, 178);
+        border: 3px solid greenyellow;
+
+    }
+    100%{
+        background: red; 
+        border: 3px solid rgba(139, 19, 113, 0.685);
+    }
+}
+.rew{
+     width: 700px;
+    height: 40px;
+    animation-name: frr;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+@keyframes frr{
+    0%{
+        color: blue;
+        border: 3px solid violet;
+
+    }
+    100%{
+        color: rgb(125, 226, 43);
+        border: 3px solid cornflowerblue;
+    }
+}
+.red{
+    border-radius: 30px;
+    border: 2px solid black;
+    width: 300px;
+    height: 500px;
+
+}
+@keyframes fr{
+    0%{
+        color: blue;
+        border: 3px solid violet;
+        
+
+    }
+    100%{
+        color: rgb(125, 226, 43);
+        border: 3px solid cornflowerblue;
+        margin-left: 40px;
+    }
+}
+.red{
+    animation-name: fr;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+.frrr{
+    background: linear-gradient(24deg red green);
+    margin: 20px;
+
+
+    transition-property: padding background;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+
+}
+.frrr:hover{
+    background: blue;
+    margin-bottom: 35px;
+    padding: 34px;
+}
+.reww{
+    width: 300px;
+    height: 100px;
+
+    transition: all 0.4s ease-out 0s;
+}
+.reww :hover{
+    width: 400px;
+    height: 200px;
+    
+}
+.hgyt{
+    width: 300px;
+    height: 200px;
+
+
+    transform: translate(200px, 200px);
+    transform: rotate(70deg);
+    transform: scale(2);
+    transform: skew(34deg);
+}
+.eww{
+     background: linear-gradient(10deg, red, blue, black, white);
+}
+.juew{
+    background: linear-gradient(23deg, red, green, blue);
+}
+.dss{
+    height: 200px;
+    background: radial-gradient(circle, red, green);
+
+}
+
+.min{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(10deg, red, blue, green);
+}
+button{
+    margin: 20px;
+    padding: 40px;
+    text-align: center;
+}
+.sec{
+    background: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gin{
+    width: 70px;
+    height: 70px;
+}
+.bad{
+    display: none;
+}
+.go{
+    
+}
+p{
+    
+    background: blue !important;
+}
+.koko{
+    background: red;
+    padding: 4px;
+    
+    ul{
+        list-style-type: none;
+        padding: 2px;
+
+        a{
+            text-decoration: none;
+            color: chartreuse;
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 760px) {
+    .frrr:hover{
+        padding: 20px;
+        background: red;
+        text-decoration: underline;
+    }
+    .bad{
+        display: flex;
+    }
+    .go{
+        display: none;
+        
+    }
+    
+    
+
+}

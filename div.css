@@ -1,0 +1,64 @@
+div{
+    background: green;
+    border-radius: 20px;
+    width: fit-content;
+    text-align: center;
+    
+}
+.rod{
+
+    border: 4px dashed blue;
+    position: fixed;
+    top: 0px;
+    right: 10px;
+}
+.as{
+    font-style: italic;
+    position: relative;
+}
+#dee{
+
+    text-decoration: underline;
+}
+#a{
+    color: purple;
+}
+#b{
+    color: red;
+}
+#c{
+    color: orange;
+}
+#d{
+    color: magenta;
+}
+#e{
+    color: indigo;
+}
+#f{
+    color: blue;
+}
+.myname{
+    font-size: 80px;
+    font-weight: 700;
+    
+    
+}
+p{
+    position: relative;
+}
+.practice{
+    background-color: rgb(75, 51, 17);
+    color: aquamarine;
+}
+.jot{
+    object-fit: contain;
+    float: left;
+    
+}
+
+
+
+
+
+

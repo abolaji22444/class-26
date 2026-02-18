@@ -1,0 +1,40 @@
+body{
+    background-image: url(my.jpg);
+}
+p{
+    background-color: blue;
+    background-image: url(my.jpg);
+    background-position: center;
+    background-color: blanchedalmond;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    width: 50%;
+    height: fit-content;
+
+   
+    padding: 50px 40px 45px 30px;
+    margin: 40px 40px 40px 40px;
+    border-radius: 14px;
+
+    border-width: 10px;
+    border-style: dashed;
+    border-color: blueviolet;
+
+    border-top: 10px dotted green;
+    border-right: 17px dashed red;
+    border-bottom: 16px inset yellow;
+    border-left: 14px groove tomato;
+    
+
+    box-shadow: inset 0px 0px 27px 10px black;
+
+    
+
+    
+    
+}
+h1{
+    background-color: rgba(222, 222, 233, 0.4);
+    backdrop-filter: blur (40px);
+}

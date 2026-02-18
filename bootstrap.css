@@ -1,0 +1,31 @@
+.rr{
+    visibility: visible;
+    cursor: n-resize;
+}
+.iu{
+    width: 200px;
+    height: 300px;
+    overflow: scroll;
+    scrollbar-width: none;
+    color: black;
+    
+}
+img{
+    width: 300px;
+    height: 400px;
+
+}
+.ik{
+    display: flex;
+    flex-direction: column;
+}
+.ju{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.li{
+    padding: 10px;
+    
+    
+}

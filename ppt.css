@@ -1,0 +1,83 @@
+img{
+
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    background-color: black;
+    opacity: 1;
+    filter: blur(1px) brightness(1)
+    contrast(200%) invert(30%) hue-rotate(78deg); 
+}
+ul{
+    list-style-type: lower-roman;
+
+}
+ol{
+    list-style-type: square;
+
+
+}
+table{
+    border-spacing: 10px;
+     border: 2px solid red;
+}
+td{
+    color: blueviolet;
+    border: 2px solid blue;
+    padding: 10px;
+    
+    
+}
+input{
+    padding: 5px;
+    margin: 5px 0px;
+    border: none;
+    border-bottom: 1px solid red;
+    background: rgba(255, 0, 0 0.1);
+    color: rgb(28, 8, 138)
+}
+
+input::placeholder{
+    color: brown;
+}
+
+input[type="radio"]{
+    accent-color: red;
+    width: 30px;
+    height: 30px;
+
+
+}
+input[type="password"]{
+    color: rgb(132, 165, 42);
+    border-bottom: 1px solid yellowgreen;
+    
+}
+input[type="number"]{
+      color: rgb(165, 153, 42);
+      border-bottom: 1px solid yellowgreen;
+  
+}
+input[type="email"]{
+    color: rgb(255, 221, 127);
+    border-bottom: 1px solid red;
+}
+input[type=checkbox]{
+     accent-color: rgb(255, 238, 0);
+     width: 30px;
+     height: 30px;
+}
+textarea{
+    resize: horizontal;
+    width: 300px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+

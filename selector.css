@@ -1,0 +1,67 @@
+*{
+    color: rgb(212, 22, 139)
+}
+.jii a{
+    color: blue;
+}
+.jii>ul>li>a{
+    color: brown;
+}
+.rrw>img{
+    width: fit-content;
+    border-radius: 100%;
+}
+.jii>ul+p{
+    color: aqua;
+}
+.kif~p{
+    background: blue;
+    color: blueviolet;
+}
+.kif+p{
+
+}
+.hug:hover{
+    color: black;
+    background-color: black;
+}
+.hug:active{
+    color: firebrick;
+}
+.eed:focus{
+    color: darkorange;
+    background: black;
+}
+.dfdi{
+    background: darkgreen;
+    width: 234x;
+    padding: 30px;
+    text-align: center;
+
+}
+.dfdi button{
+    box-shadow: inset 5px 6px 44px red;
+    font-size: 30px;
+}
+.dfdi button:first-child{
+    color: blue;
+}
+.deds{
+    background: blue;
+    width: 256px;
+    text-align: center;
+    padding: 30px;
+}
+.deds button{
+    font-size: 25px;
+    color: deepskyblue;
+}
+.deds button:active{
+    background: darkgray;
+}
+.deds button:first-child{
+    border-radius: 0px 0px 0px 15px;
+}
+.deds button:last-child{
+    border-radius: 0px 15px 0px 0px;
+}
